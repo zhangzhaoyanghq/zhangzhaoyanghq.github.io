@@ -87,31 +87,23 @@
 
   <div class="content">
     <ul>
+      <li> 
+   Compiler: This project built a complete SysY (a subset of the C language) compiler and implemented intermediate
+code optimization. Initially, a lexical and syntax analyzer based on Flex and Bison was implemented, followed by the
+conversion from syntax tree to LLVM intermediate code. The intermediate code was then translated into Loongson
+assembly instructions. Finally, optimizations were applied to the intermediate code using optimizing passes. After
+constructing the dominator tree, it used Mem2Reg (inserting phi functions and accomplishing variable renaming) to
+eliminate memory operations and perform dead code elimination.
+     </li>
+    </ul>
+   </div>
+  <div class="content">
+    <ul>
       <li> Implementation of labs in CMU10-714(Deep Learning Systems: Algorithms and Implementation).<br>
 	      Deep learning methods have revolutionized a number of fields in Artificial Intelligence and Machine Learning in recent years.  The widespread adoption of deep learning methods have in no small part been driven by the widespread availability of easy-to-use deep learning systems, such as PyTorch and TensorFlow.  But despite their widespread availability and use, it is much less common for students to get involved with the internals of these libraries, to understand how they function at a fundamental level.  But understanding these libraries deeply will help you make better use of their functionality, and enable you to develop or extend these libraries when needed to fit your own custom use cases in deep learning.   The goal of this course is to provide students an understanding and overview of the “full stack” of deep learning systems, ranging from the high-level modeling design of modern deep learning systems, to the basic implementation of automatic differentiation tools, to the underlying device-level implementation of efficient algorithms.  Throughout the course, students will design and build from scratch a complete deep learning library, capable of efficient GPU-based operations, automatic differentiation of all implemented functions, and the necessary modules to support parameterized layers, loss functions, data loaders, and optimizers.  Using these tools, students will then build several state-of-the-art modeling methods, including convolutional networks for image classification and segmentation, recurrent networks and self-attention models for sequential tasks such as language modeling, and generative models for image generation.
-        <ul>
-          <li><a href="https://github.com/hanquanjushi/10-714/tree/main/hw0">Lab0 </a></li>
-	
-          <li><a href="https://github.com/hanquanjushi/10-714/tree/main/hw1">Lab1 </a></li>
-          <li><a href="https://github.com/hanquanjushi/10-714/tree/main/hw2">Lab2 </a></li>
-	
-          <li><a href="https://github.com/hanquanjushi/10-714/tree/main/hw3">Lab3 </a></li>
-	  <li><a href="https://github.com/hanquanjushi/10-714/tree/main/hw4">Lab4 </a></li>
-        </ul> 
+         
       </li>
-      <li>Implementation of labs in MIT6.5940 TinyML and Efficient Deep Learning Computing
-        <ul>
-          <li><a href="https://github.com/hanquanjushi/EfficientML">Lab1：Pruning </a></li>
-	  <li><a href="https://github.com/hanquanjushi/EfficientML">Lab2：Quantization </a></li>
-         </ul>
-      </li>
-      <li>Implementation of labs in Microsoft AI System.
-        <ul>
-          <li><a href="https://github.com/hanquanjushi/AI-system-Labs/tree/main/Lab1">Lab1 </a></li>
-	
-          <li><a href="https://github.com/hanquanjushi/AI-system-Labs/tree/main/Lab2">Lab2 </a></li>
-        </ul>
-      </li>
+      
      
     </ul>
 
